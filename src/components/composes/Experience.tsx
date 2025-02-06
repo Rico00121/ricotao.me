@@ -11,6 +11,9 @@ export default function Experience() {
             <p className="text-gray-600 dark:text-gray-300">
               Specializing in Cloud and Network Infrastructures
             </p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Minor in Innovation and Entrepreneurship
+            </p>
             <p className="text-gray-500 dark:text-gray-400">
               Aalto University • Université de Rennes
             </p>
@@ -18,6 +21,12 @@ export default function Experience() {
           </div>
           <div className="relative pl-6 border-l-2 border-blue-600 dark:border-blue-500">
             <h3 className="text-xl font-semibold">Bachelor of Software Engineering</h3>
+            <p className="text-gray-600 dark:text-gray-300">
+            Specializing in Information Processing Science
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+            Honours Graduate
+            </p>
             <p className="text-gray-500 dark:text-gray-400">University of Oulu</p>
             <p className="text-sm text-gray-500 dark:text-gray-400">Sep 2018 - Jun 2022</p>
           </div>
@@ -37,16 +46,21 @@ export default function Experience() {
             {/* 软技能展示 */}
 
             <div className="flex flex-wrap gap-2 mt-2"> 
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">AWS</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Kubernetes</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Terraform</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">DataDog</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">BlackDuck</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">TDD</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">DDD</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">CI/CD</span>
               <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Agile</span>
-              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">PactFlow</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Test-Driven Development</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">DevOps</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Domain-Driven Design</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">CI/CD</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Clean Code</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Architectural Design</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Distributed System</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Microservices</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Empathy</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Problem solving</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Teamwork</span>
+              <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Communication</span>
+
+
 
             </div>
           </div>
