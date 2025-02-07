@@ -59,9 +59,6 @@ export default function Experience() {
               <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Problem solving</span>
               <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Teamwork</span>
               <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Communication</span>
-
-
-
             </div>
           </div>
         </div>
