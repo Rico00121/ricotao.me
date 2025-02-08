@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className="flex-1 space-y-6">
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            I'm Ruikang Tao, a scholarship student in the EIT Digital Master's program, currently pursuing my first year in Computer Science at the
+            I&apos;m Ruikang Tao, a scholarship student in the EIT Digital Master&apos;s program, currently pursuing my first year in Computer Science at the
             University of Rennes, France, and will continue my second year at the University of Aalto, Finland.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300">

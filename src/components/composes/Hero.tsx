@@ -1,7 +1,7 @@
 import Image from "next/image";
 import AnimatedTitle from "../AnimatedTitle";
 import WavingHand from '../WavingHand';
-import { SiLinkedin, SiGithub, SiGmail } from 'react-icons/si';
+import { SiLinkedin, SiGithub } from 'react-icons/si';
 
 export default function Hero() {
   return (
@@ -9,12 +9,12 @@ export default function Hero() {
             {/* 左侧文字介绍 */}
             <div className="flex-1">
               <h1 className="text-5xl font-bold">
-                Hi, I'm{' '}
+                Hi, I&apos;m{' '}
                 <AnimatedTitle />
                 <WavingHand />
               </h1>
               <div className="sr-only">
-                Hi, I'm a Software Engineer, Technical Consultant, and Problem Solver
+                Hi, I&apos;m a Software Engineer, Technical Consultant, and Problem Solver
               </div>
               
               <p className="mt-6 text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
