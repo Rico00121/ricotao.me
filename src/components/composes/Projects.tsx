@@ -4,28 +4,30 @@ export default function Projects() {
   const projects = [
     {
       title: "Coldpilot",
-      description: "IoT-based application for monitoring and controlling temperature and humidity in a warehouse",
+      description: "Coldpilot is an AI-powered cold room monitoring system that provides real-time temperature tracking, intelligent alerts, and energy optimization. It helps businesses ensure product safety, reduce losses, and improve operational efficience. ",
       imageSrc: "/projects/coldpilot.png",
-      tags: ["Python", "React", "PostgreSQL"],
+      tags: ["React Native", "Spring Boot","EMQX", "Redis", "PostgreSQL", "Docker", "Kotlin", "Typescript"],
     },
     {
-      title: "Cloud-Native Application",
-      description: "A microservices-based application deployed on AWS",
+      title: "Cloud-Native Sock Shop",
+      description: "Deployed the open-source Sock-Shop application on a self-built Kubernetes cluster using Terraform and AWS, ensuring scalability, high concurrency, and observability with Prometheus and EFK.",
       imageSrc: "/projects/sock-shop.png",
-      tags: ["AWS", "Kubernetes", "Docker"],
+      tags: ["AWS", "Kubernetes", "Docker", "Terraform", "EFK", "Prometheus"],
       url: "https://github.com/Rico00121/sct-final-project",
     },
     {
-      title: "Tiny Editor",
-      description: "IoT-based application for monitoring and controlling temperature and humidity in a warehouse",
+      title: "Tiny Text Editor",
+      description: "Built a lightweight text editor with a Java kernel and an Electron UI, featuring custom text operations and a seamless frontend-backend interaction system.",
       imageSrc: "/projects/tiny-editor.png",
-      tags: ["Python", "React", "PostgreSQL"],
+      tags: ["Java", "Electron", "React"],
+      url: "https://github.com/Rico00121/tiny-text-editor",
     },
     {
       title: "Smart Museum",
-      description: "An AI tour guide application powered by TongyiQwen LLM. It allows visitors to easily access artifact information and engage in in-depth interactive Q&A with AI, providing a personalized and immersive museum experience.",
+      description: "An AI tour guide application powered by TongyiQwen LLM. It allows visitors to easily access artifact information and engage in in-depth interactive Q&A with AI, providing a personalized and interactive experience.",
       imageSrc: "/projects/museum.png",
-      tags: ["Python", "React", "PostgreSQL"],
+      tags: ["Python", "Flask", "UniApp", "Vue.js", "TinyDB"],
+      url: "https://github.com/smart-guide-x/smart-museum",
     },
   ];
 
