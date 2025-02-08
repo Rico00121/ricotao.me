@@ -25,7 +25,7 @@ export default function ProjectItem({
     >
       {/* 图片部分 */}
       <div className="w-full md:w-1/2">
-        <div className="relative rounded-2xl overflow-hidden">
+        <div className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
           <div className="aspect-[16/10]">
             <Image
               src={imageSrc}
@@ -50,7 +50,7 @@ export default function ProjectItem({
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-2 pt-4">
+        <div className="flex flex-wrap gap-2 pt-1">
           {tags.map((tag, tagIndex) => (
             <span
               key={tagIndex}
@@ -66,7 +66,7 @@ export default function ProjectItem({
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center mt-6 px-6 py-3 rounded-lg bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 font-medium hover:bg-gray-700 dark:hover:bg-gray-300 transition-all duration-300"
+            className="inline-flex items-center mt-6 px-4 py-2 rounded-lg bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 font-medium hover:bg-gray-700 dark:hover:bg-gray-300 transition-all duration-300"
           >
             View Project
             <svg 
