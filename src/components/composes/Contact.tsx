@@ -1,7 +1,34 @@
-import { SiGmail, SiLinkedin, SiGithub } from 'react-icons/si';
-import { FaPhoneAlt } from 'react-icons/fa';
+'use client';
 
+import { SiGmail, SiLinkedin } from 'react-icons/si';
+import { FaPhoneAlt } from 'react-icons/fa';
+import { useEffect } from 'react';
+import emailjs from '@emailjs/browser';
 export default function Contact() {
+  useEffect(() => {
+    emailjs.init({
+      publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+    });
+  }, []);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    
+    try {
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        e.currentTarget,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      );
+      alert('Send successfully!');
+      (e.target as HTMLFormElement).reset();
+    } catch (error) {
+      console.error('Send failed', error);
+      alert('Send failed, please try again later');
+    }
+  };
+
   return (
     <section className="mb-24" id="contact">
       <h2 className="text-4xl font-bold mb-12">Contact Me</h2>
@@ -9,24 +36,28 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-12 h-full">
         {/* 联系表单 */}
         <div className="flex flex-col h-full">
-          <h3 className="text-2xl font-semibold mb-8">Send me a message</h3>
-          <form className="flex-1 flex flex-col space-y-8" action="https://formspree.io/f/your-form-id" method="POST">
+          <h3 className="text-2xl font-semibold mb-2">Send me a message</h3>
+          <form 
+            className="flex-1 flex flex-col space-y-8" 
+            onSubmit={handleSubmit}
+          >
+            <input type="hidden" name="contact_number" value={Date.now().toString()} />
             <div>
-              <label htmlFor="name" className="block text-lg mb-2">Name</label>
+              <label htmlFor="user_name" className="block text-lg mb-2">Name</label>
               <input
                 type="text"
-                id="name"
-                name="name"
+                id="user_name"
+                name="user_name"
                 required
                 className="w-full px-4 py-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
             <div>
-              <label htmlFor="email" className="block text-lg mb-2">Email</label>
+              <label htmlFor="user_email" className="block text-lg mb-2">Email</label>
               <input
                 type="email"
-                id="email"
-                name="email"
+                id="user_email"
+                name="user_email"
                 required
                 className="w-full px-4 py-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
