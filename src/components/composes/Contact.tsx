@@ -38,7 +38,7 @@ export default function Contact() {
         <div className="flex flex-col h-full">
           <h3 className="text-2xl font-semibold mb-2">Send me a message</h3>
           <form 
-            className="flex-1 flex flex-col space-y-8" 
+            className="flex-1 flex flex-col space-y-2" 
             onSubmit={handleSubmit}
           >
             <input type="hidden" name="contact_number" value={Date.now().toString()} />
@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-lg"
+              className="w-full px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-lg"
             >
               Send Message
             </button>
@@ -86,7 +86,7 @@ export default function Contact() {
           <h3 className="text-2xl font-semibold mb-8">Contact Information</h3>
           <div className="flex-1 flex flex-col space-y-4">
             <a href="mailto:ruikang.tao21@gmail.com" 
-               className="flex items-center gap-4 p-4 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
+               className="flex items-center gap-4 p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
               <SiGmail className="w-8 h-8 text-gray-700 dark:text-white/90" />
               <div>
                 <div className="font-medium">Email</div>
@@ -97,7 +97,7 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/ruikang-tao" 
                target="_blank"
                rel="noopener noreferrer"
-               className="flex items-center gap-4 p-4 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
+               className="flex items-center gap-4 p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
               <SiLinkedin className="w-8 h-8 text-gray-700 dark:text-white/90" />
               <div>
                 <div className="font-medium">LinkedIn</div>
@@ -106,7 +106,7 @@ export default function Contact() {
             </a>
 
             <a href="tel:+33 07 48 51 05 35" 
-               className="flex items-center gap-4 p-4 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
+               className="flex items-center gap-4 p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
               <FaPhoneAlt className="w-8 h-8 text-gray-700 dark:text-white/90" />
               <div>
                 <div className="font-medium">Phone</div>
