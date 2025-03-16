@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <div className="flex-shrink-0">
           <Image
-            src="/about-me.jpg"
+            src="/about-me-3.jpg"
             alt="About me image"
             width={240}
             height={240}

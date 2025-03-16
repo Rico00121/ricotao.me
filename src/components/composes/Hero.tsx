@@ -40,7 +40,7 @@ export default function Hero() {
             {/* 右侧头像 */}
             <div className="flex-shrink-0">
               <Image
-                src="/avatar.jpg" 
+                src="/avatar-3.jpg" 
                 alt="personal photo"
                 width={320}
                 height={320}
