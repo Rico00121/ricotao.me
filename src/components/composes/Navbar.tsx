@@ -23,15 +23,6 @@ const Navbar = () => {
             <a href="https://rico00121.github.io/blog/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400">Blog</a>
             
             <ThemeToggle />
-            
-            <a 
-              href="https://drive.google.com/drive/folders/1wFAM8sht5CZWxmehGYnEjV7Hk9mcciSO?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 dark:bg-blue-700 w-full sm:w-auto px-5 py-1.5 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-800 transition-colors text-white"
-            >
-              Download CV
-            </a>
           </div>
         </div>
       </div>
