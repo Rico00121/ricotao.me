@@ -7,6 +7,7 @@ export default function Projects() {
       description: "Coldpilot is an AI-powered cold room monitoring system that provides real-time temperature tracking, intelligent alerts, and energy optimization. It helps businesses ensure product safety, reduce losses, and improve operational efficience. ",
       imageSrc: "/projects/coldpilot.png",
       tags: ["React Native", "Spring Boot","EMQX", "Redis", "PostgreSQL", "Docker", "Kotlin", "Typescript"],
+      url: "https://coldpilot.io",
     },
     {
       title: "Cloud-Native Sock Shop",

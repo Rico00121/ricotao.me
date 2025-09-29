@@ -105,12 +105,12 @@ export default function Contact() {
               </div>
             </a>
 
-            <a href="tel:+33 07 48 51 05 35" 
+            <a href="tel:+358 044 931 1933" 
                className="flex items-center gap-4 p-3 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors w-full">
               <FaPhoneAlt className="w-8 h-8 text-gray-700 dark:text-white/90" />
               <div>
                 <div className="font-medium">Phone</div>
-                <div className="text-gray-600 dark:text-gray-300">+33 07 48 51 05 35</div>
+                <div className="text-gray-600 dark:text-gray-300">+358 044 931 1933</div>
               </div>
             </a>
           </div>
