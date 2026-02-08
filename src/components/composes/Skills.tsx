@@ -38,6 +38,10 @@ export default function Skills() {
         <SkillIcon imageSrc="/skill-icons/pactflow.png" name="PactFlow" />
         <SkillIcon imageSrc="/skill-icons/datadog.svg" name="Dotadog" />
         <SkillIcon imageSrc="/skill-icons/blackduck.png" name="Black Duck" />
+        <SkillIcon imageSrc="/skill-icons/prometheus.svg" name="Prometheus" />
+        <SkillIcon imageSrc="/skill-icons/grafana.svg" name="Grafana" />
+        <SkillIcon imageSrc="/skill-icons/loki.svg" name="Loki" />
+        <SkillIcon imageSrc="/skill-icons/victoriametrics.png" name="VictoriaMetrics" />
         <SkillIcon icon={SiFlask} name="Flask" color="text-[#465362] dark:text-[#FFFFFF]" />
         <SkillIcon imageSrc="/skill-icons/python.svg" name="Python" />
         <SkillIcon icon={SiNextdotjs} name="Next.js" />

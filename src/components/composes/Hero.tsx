@@ -30,6 +30,11 @@ export default function Hero() {
         </div>
         <p className="mt-6 text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
           A professional full stack developer with full life cycle experience in software development.
+          <br />
+          <br />
+          <span>
+            Good at <span className="font-bold text-blue-600 dark:text-blue-400">Cloud</span>, <span className="font-bold text-blue-600 dark:text-blue-400">Monitoring</span> and <span className="font-bold text-blue-600 dark:text-blue-400">Optimization</span>.
+          </span>
         </p>
         {/* 社交链接 */}
         <div className="flex justify-center md:justify-start gap-6 mt-8 md:mt-12">

@@ -39,6 +39,24 @@ export default function Experience() {
           <div className="space-y-8">
             <div className="relative pl-6 border-l-2 border-blue-600 dark:border-blue-500">
               <div className="flex items-center gap-2 mb-2">
+                <h3 className="text-xl font-semibold">Verda</h3>
+              </div>
+              <p className="text-blue-600 dark:text-blue-400">Observability Engineer</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">Jan 2026 - Present</p>
+
+              <div className="flex flex-wrap gap-2 mt-2"> 
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Observability</span>
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Monitoring</span>
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">AI Infrastructure</span>
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">GPU Clusters</span>
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Cloud Platform</span>
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Performance Optimization</span>
+                <span className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700">Distributed Systems</span>
+              </div>
+            </div>
+            
+            <div className="relative pl-6 border-l-2 border-blue-600 dark:border-blue-500">
+              <div className="flex items-center gap-2 mb-2">
                 <h3 className="text-xl font-semibold">KONE</h3>
               </div>
               <p className="text-blue-600 dark:text-blue-400">Cloud Engineer</p>

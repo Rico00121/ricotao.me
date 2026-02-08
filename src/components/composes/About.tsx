@@ -7,16 +7,20 @@ export default function About() {
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className="flex-1 space-y-6">
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            I&apos;m Ruikang Tao, a scholarship student in the EIT Digital Master&apos;s program, currently pursuing my first year in Computer Science at the
-            University of Rennes, France, and will continue my second year at the University of Aalto, Finland.
+            I&apos;m Ruikang Tao, a scholarship student in the EIT Digital Master&apos;s program, currently pursuing my second year in Computer Science at 
+            Aalto University, Finland, specializing in Cloud and Network Infrastructures with a minor in Innovation and Entrepreneurship.
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            Previously, I worked as a Software
-            Engineer at Thoughtworks for two years, where I honed my technical expertise and developed strong soft skills, including clear
-            communication of complex technical concepts and effective teamwork.</p>
+            Currently working as an Observability Engineer at Verda, a leading AI cloud infrastructure company in Helsinki, where I focus on 
+            monitoring and optimizing large-scale GPU clusters and distributed AI workloads.
+          </p>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            Passionate about technology and excellence, I thrive on
-            tackling new challenges and driving project success.
+            My journey includes two years as a Software Engineer at Thoughtworks and a cloud engineering internship at KONE, where I developed 
+            expertise in cloud infrastructure, DevOps practices, and distributed systems while strengthening my communication and teamwork skills.
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-300">
+            Passionate about technology and excellence, I thrive on tackling complex challenges in cloud infrastructure and AI systems, 
+            always seeking to drive innovation and project success.
           </p>
         </div>
         <div className="flex-shrink-0">
